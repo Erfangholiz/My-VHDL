@@ -24,30 +24,14 @@ endmodule
 
 
 module full_adder(a, b, cin, cout, d);
-input a, b, cin;
-output reg cout, d;
+    input a, b, cin;
+    wire [1:0] x;
+    output d;
+    output cout;
 
-always @(*) begin
-    if((a && b && cin) || (a && !b && !cin) || (!a && b && !cin) || (!a && !b && cin)) begin
-        d <= 1'b1;
-    end
-    
-    else begin
-        if((!a && b && cin) || (a && !b && cin) || (a && b && !cin) || (!a && !b && !cin)) begin
-            d <= 1'b0;
-        end
-    end
-    
-    if((a && b && cin) || (!a && b && cin) || (a && !b && cin) || (a && b && !cin)) begin
-        cout <= 1'b1;
-    end
-    
-    else begin
-        if((a && !b && !cin) || (!a && b && !cin) || (!a && !b && cin) || (!a && !b && !cin)) begin
-            cout <= 1'b0;
-        end
-    end
-end
+    assign x = a + b + cin;
+    assign cout = x[1];
+    assign d = x[0];
 
 endmodule
 
@@ -106,8 +90,3 @@ module test_arithmetic_circuit;
   end
 
 endmodule
-
-
-
-
-
