@@ -14,7 +14,8 @@ There are a lot of nonesensical files here that I have no idea about the purpose
 
 ## Verilog:
 - ### Arithmetic-Logic-Unit.v:
-    - This is a fully functioning 4-bit Arithmetic Logic Unit (ALU), here's a schematic for how it works along with ts truth table:
+    - This is a fully functioning 4-bit Arithmetic Logic Unit (ALU) with the added ability to shift the A[3:0] input left or right if the SEL3 bit is set to high.
+Here's a schematic for you to seee exactly how it works along with its truth table:
       <p align="center">
          <img src="Verilog/ALU Schematic and Truth Table.png" height ="300"  alt="ALU Schematic and Truth Table"/>
       </p>
