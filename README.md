@@ -12,7 +12,7 @@ There are a lot of nonesensical files here that I have no idea about the purpose
 - ### .bdf files:
   - Block Diagram Files, visual representations of the circuits (Can be opened by Quartus, Modelsim, MaxIIplus)
 - ### .vwf files:
-  - Vector Waveform Files, for the waveforms, although I'd say you're better off just getting the output yourself (Can be opened with the same files)
+  - Vector Waveform Files, for the waveforms, although I'd say you're better off just getting the output yourself (Can be opened with the same programs)
 
 ## Verilog:
 - ### Arithmetic-Logic-Unit.v:
