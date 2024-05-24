@@ -84,9 +84,42 @@ module test_arithmetic_circuit;
     A = 4'b0100;
     B = 4'b0010;
     CIN = 1'b0;
-    #10;
+    #30;
+    
+    SEL0 = 1'b0;
+    SEL1 = 1'b1;
+    A = 4'b0100;
+    B = 4'b0010;
+    CIN = 1'b0;
+    #30;
+    
+    SEL0 = 1'b0;
+    SEL1 = 1'b0;
+    A = 4'b0100;
+    B = 4'b0010;
+    CIN = 1'b1;
+    #30;
+    
+    SEL0 = 1'b1;
+    SEL1 = 1'b0;
+    A = 4'b0100;
+    B = 4'b0010;
+    CIN = 1'b0;
+    #30;
+    
+    SEL0 = 1'b1;
+    SEL1 = 1'b1;
+    A = 4'b0100;
+    B = 4'b0010;
+    CIN = 1'b0;
+    #30;
 
     $finish;
   end
 
 endmodule
+
+
+
+
+
