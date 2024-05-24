@@ -1,3 +1,7 @@
+<p align="center">
+         <img src="VHDL.png" height ="400"  alt="ALU Schematic and Truth Table"/>
+</p>
+
 # My-VHDL
 A dump for my VHDL projects, because I want to have a better understanding of Verilog and also Logic circuits.
 
