@@ -23,3 +23,9 @@ There are a lot of nonesensical files here that I have no idea about the purpose
       <p align="center">
          <img src="Verilog/ALU Waveform.PNG" height ="400"  alt="ALU Schematic and Truth Table"/>
       </p>
+- ### Arithmetic-Operations.v:
+    - This is the "Arithmetic Circuit" mentioned in the schema above.
+    - Schematics and truth table:
+      <p align="center">
+         <img src="Verilog/Arithmetic Operatinos Schematics and Truth Table.PNG" height ="400"  alt="ALU Schematic and Truth Table"/>
+      </p>
